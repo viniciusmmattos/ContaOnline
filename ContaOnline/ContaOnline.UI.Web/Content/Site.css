@@ -1,0 +1,126 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.comandos-tabela{
+    width: 1%;
+    white-space: nowrap;
+    text-align: right;
+}
+<<<<<<< HEAD
+
+.area-cadastro {
+    margin: 180px 50px 100px 70px;
+    float: right;
+    background-color: white;
+    width: 500px;
+    height: 700px;
+    border-radius: 20px;
+    box-shadow: black 0.5em 0.5em 0.3em;
+}
+
+.cadastro {
+    width: 350px;
+    height: 450px;
+    margin: 200px 2px 5px 80px;
+}
+
+.imagem-fundo {
+    height: 1000px;
+    width: 1925px;
+    margin: -80px -600px -150px -400px;
+    background-image: url(Imgs/verde.jpg);
+    background-size: cover;
+    display: block;   
+}
+
+.h2-registro {
+    float: right;
+    margin-right: 90px;
+    margin-top: 110px;
+    font-weight: bold;
+}
+
+.area-texto {
+    float: left;
+    width: 1000px;
+    height: 660px;
+    margin: 180px 50px 100px 200px;
+}
+
+.textos {
+    float: left;
+    width: 900px;
+    height: 600px;
+    margin: 60px 50px 100px 100px;
+}
+
+.confirmar-senha {
+    float: right;
+    width: 400px;
+    height: 100px;
+    margin-right: -42px;
+}
+
+.btn-cadastrar {
+    float: right;
+    width: 200px;
+    height: 100px;
+    margin-right: 40px;
+    margin-top: -30px;
+}
+
+.h1 {
+    font-weight: bold;
+    color: white;
+    font-size: 65px;
+}
+
+.h2 {
+    font-weight: bold;
+    color: white;
+    font-size: 45px;
+}
+
+.h3 {
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+}
+
+.h4 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.h4-2 {
+    font-weight: bold;
+    font-size: 25px;
+    color: darkred;
+    font-size: 30px;
+}
+=======
+>>>>>>> 3c2c9a98d9abc1d87f33c74c334a9157e69236a9

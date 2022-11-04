@@ -1,0 +1,6 @@
+C:\Users\FernandinhoGamer\source\repos\ContaOnline\ContaOnline.Domain\bin\Release\ContaOnline.Domain.dll
+C:\Users\FernandinhoGamer\source\repos\ContaOnline\ContaOnline.Domain\bin\Release\ContaOnline.Domain.pdb
+C:\Users\FernandinhoGamer\source\repos\ContaOnline\ContaOnline.Domain\obj\Release\ContaOnline.Domain.csprojAssemblyReference.cache
+C:\Users\FernandinhoGamer\source\repos\ContaOnline\ContaOnline.Domain\obj\Release\ContaOnline.Domain.csproj.CoreCompileInputs.cache
+C:\Users\FernandinhoGamer\source\repos\ContaOnline\ContaOnline.Domain\obj\Release\ContaOnline.Domain.dll
+C:\Users\FernandinhoGamer\source\repos\ContaOnline\ContaOnline.Domain\obj\Release\ContaOnline.Domain.pdb

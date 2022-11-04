@@ -1,0 +1,13 @@
+C:\Users\FernandinhoGamer\source\repos\ContaOnline\ContaOnline.Repository\bin\Release\ContaOnline.Repository.dll.config
+C:\Users\FernandinhoGamer\source\repos\ContaOnline\ContaOnline.Repository\bin\Release\ContaOnline.Repository.dll
+C:\Users\FernandinhoGamer\source\repos\ContaOnline\ContaOnline.Repository\bin\Release\ContaOnline.Repository.pdb
+C:\Users\FernandinhoGamer\source\repos\ContaOnline\ContaOnline.Repository\bin\Release\ContaOnline.Domain.dll
+C:\Users\FernandinhoGamer\source\repos\ContaOnline\ContaOnline.Repository\bin\Release\Dapper.dll
+C:\Users\FernandinhoGamer\source\repos\ContaOnline\ContaOnline.Repository\bin\Release\MySql.Data.dll
+C:\Users\FernandinhoGamer\source\repos\ContaOnline\ContaOnline.Repository\bin\Release\ContaOnline.Domain.pdb
+C:\Users\FernandinhoGamer\source\repos\ContaOnline\ContaOnline.Repository\bin\Release\Dapper.xml
+C:\Users\FernandinhoGamer\source\repos\ContaOnline\ContaOnline.Repository\obj\Release\ContaOnline.Repository.csprojAssemblyReference.cache
+C:\Users\FernandinhoGamer\source\repos\ContaOnline\ContaOnline.Repository\obj\Release\ContaOnline.Repository.csproj.CoreCompileInputs.cache
+C:\Users\FernandinhoGamer\source\repos\ContaOnline\ContaOnline.Repository\obj\Release\ContaOnline.Repository.csproj.CopyComplete
+C:\Users\FernandinhoGamer\source\repos\ContaOnline\ContaOnline.Repository\obj\Release\ContaOnline.Repository.dll
+C:\Users\FernandinhoGamer\source\repos\ContaOnline\ContaOnline.Repository\obj\Release\ContaOnline.Repository.pdb

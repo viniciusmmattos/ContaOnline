@@ -1,0 +1,78 @@
+﻿@model ContaOnline.UI.Web.Models.RegistroViewModel
+
+@{
+    ViewBag.Title = "Registro";
+}
+<div class="imagem-fundo">
+    <div class="area-cadastro">
+        
+            <h2 class="h2-registro">Se inscreva e aproveite!</h2>
+
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+                <div class="cadastro">
+                    <div class="form-horizontal">
+                        <hr />
+
+                        @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Nome, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.Nome, new { htmlAttributes = new { @class = "form-control" } })
+
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Senha, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.PasswordFor(model => model.Senha, new { @class = "form-control" })
+
+                            </div>
+                        </div>
+                        <div class="confirmar-senha">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.ConfirmarSenha, "Confirmar Senha", htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-10">
+                                    @Html.PasswordFor(model => model.ConfirmarSenha, new { @class = "form-control" })
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-cadastrar">
+                            <div class="form-group">
+                                <div class="col-md-offset-2 col-md-10">
+                                    <input type="submit" value="Cadastrar" class="btn btn-default" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr />
+                    </div>
+                </div>
+            }       
+    </div>
+    <div class="area-texto">
+        <div class="textos">
+            <hr/>
+            <h1 class="h1">Conta Online</h1>
+            <h2 class="h2">Faça parte do nosso sistema de gestão de contas!</h2>
+            <h3 class="h3">Gerencie todas as suas contas e se programe!</h3>
+            <div class="paragrafos">
+                <h4 class="h4">• Tem dificuldades para organizar qualquer tipo de conta?!</h4>
+                <h4 class="h4">• Use nosso sistema de contas online onde você pode transferir qualquer conta para cá e poder organizar cada conta para que você não fique perdido.</h4>
+                <h4 class="h4">• E caso tenha duvidas sobre qualquer tipo de conta que pode cadastrar não se preocupe, pois aqui validamos qualquer tipo de conta, boletos, e até faturas.</h4>
+                <h4 class="h4-2">• Os primeiros 100 clientes ganham assinatura gratis !</h4>
+            </div>
+        </div>
+    </div>
+</div>

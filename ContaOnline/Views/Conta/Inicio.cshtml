@@ -1,0 +1,82 @@
+﻿@model ContaOnline.Domain.Models.ContaListViewModel
+
+@{
+    ViewBag.Title = "Inicio";
+}
+
+<h2>Conta</h2>
+
+<p>
+    <a href='@Url.Action("Incluir")'><span class="glyphicon glyphicon-plus-sign"></span> Novo...</a>
+</p>
+
+<hr/>
+
+<form method="post" class="form-inline">
+    <label class="">Data Inicial:</label>
+    @Html.EditorFor(m => m.Filtro.DataInicial, new { htmlAttributes = new { @class = "form-control", @Value = Model.Filtro.DataInicial.ToString("d"), style = "width:100px" } })
+
+    <label class="">&nbsp;Data Final:</label>
+    @Html.EditorFor(m => m.Filtro.DataFinal, new { htmlAttributes = new { @class = "form-control", @Value = Model.Filtro.DataFinal.ToString("d"), style = "width:100px" } })
+
+    <label class="">&nbsp;Conta:</label>
+    @Html.DropDownListFor(m => m.Filtro.ContaCorrenteId, new SelectList(Model.ContaCorrenteList, "Id", "Descricao", Model.Filtro.ContaCorrenteId), new { @class = "form-control", style = "width:150px" })
+
+    <label class="">&nbsp;Categoria:</label>
+    @Html.DropDownListFor(m => m.Filtro.CategoriaId, new SelectList(Model.CategoriaList, "Id", "Nome", Model.Filtro.CategoriaId), new { @class = "form-control", style = "width:150px" })
+
+    <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span> Filtrar</button>
+</form>
+
+<br/>
+@if (Model.ContaList.Count > 0)
+{
+<table class="table">
+    <tr>
+        <th>
+            Data de Vencimento
+        </th>
+        <th>
+            Descrição
+        </th>
+        <th>
+            Contato
+        </th>
+        <th>
+            Categoria
+        </th>
+        <th>
+            Valor
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model.ContaList)
+    {
+        <tr>
+            <td>
+                @item.Data.ToShortDateString()
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descricao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Contato)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Categoria)
+            </td>
+            <td>
+                @item.Valor.ToString("c")
+            </td>
+            <td class="comandos-tabela">
+                <a href='@Url.Action("Alterar", new { id = item.Id })'><span class="glyphicon glyphicon-edit"></span></a>
+                <a href='@Url.Action("Excluir", new { id = item.Id })'><span class="glyphicon glyphicon-remove"></span></a>
+
+
+            </td>
+        </tr>
+    }
+
+</table>
+}

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContaOnline.Domain", "ContaOnline.Domain\ContaOnline.Domain.csproj", "{2713FFAA-E2D0-4086-871F-3EB23A7D45E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContaOnline.Repository", "ContaOnline.Repository\ContaOnline.Repository.csproj", "{315ED0D4-A8DE-4577-94A4-869B5AC2784E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContaOnline.Services", "ContaOnline.Services\ContaOnline.Services.csproj", "{BD6B3EF6-F6AC-4B6F-997A-E1986D50DDC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContaOnline.UI.Web", "ContaOnline.UI.Web\ContaOnline.UI.Web.csproj", "{B69041B4-DFB4-47D0-9DDF-A2F4F1A2979A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContaOnline.Testes", "ContaOnline.Testes\ContaOnline.Testes.csproj", "{56FE3BB1-DDBB-41A1-B08B-B84B442232FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinClient", "WinClient\WinClient.csproj", "{8D6B6490-81DD-45BE-AB57-A95D31672FCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2713FFAA-E2D0-4086-871F-3EB23A7D45E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2713FFAA-E2D0-4086-871F-3EB23A7D45E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2713FFAA-E2D0-4086-871F-3EB23A7D45E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2713FFAA-E2D0-4086-871F-3EB23A7D45E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{315ED0D4-A8DE-4577-94A4-869B5AC2784E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{315ED0D4-A8DE-4577-94A4-869B5AC2784E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{315ED0D4-A8DE-4577-94A4-869B5AC2784E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{315ED0D4-A8DE-4577-94A4-869B5AC2784E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD6B3EF6-F6AC-4B6F-997A-E1986D50DDC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD6B3EF6-F6AC-4B6F-997A-E1986D50DDC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD6B3EF6-F6AC-4B6F-997A-E1986D50DDC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD6B3EF6-F6AC-4B6F-997A-E1986D50DDC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B69041B4-DFB4-47D0-9DDF-A2F4F1A2979A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B69041B4-DFB4-47D0-9DDF-A2F4F1A2979A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B69041B4-DFB4-47D0-9DDF-A2F4F1A2979A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B69041B4-DFB4-47D0-9DDF-A2F4F1A2979A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56FE3BB1-DDBB-41A1-B08B-B84B442232FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56FE3BB1-DDBB-41A1-B08B-B84B442232FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56FE3BB1-DDBB-41A1-B08B-B84B442232FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56FE3BB1-DDBB-41A1-B08B-B84B442232FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D6B6490-81DD-45BE-AB57-A95D31672FCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D6B6490-81DD-45BE-AB57-A95D31672FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D6B6490-81DD-45BE-AB57-A95D31672FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D6B6490-81DD-45BE-AB57-A95D31672FCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CDC9956C-34F3-41E0-86BF-06849A1DA11E}
+	EndGlobalSection
+EndGlobal
