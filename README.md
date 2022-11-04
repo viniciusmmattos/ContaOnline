@@ -1,7 +1,6 @@
-# ContaOnline
 <h1 align="center">
 <img src="./frontend/src/assets/logo.svg"/>
-<p>ContaOnline🖥️</p>
+<p>Conta Online🖥️</p>
 </h1>
 
 ## 📚 About
