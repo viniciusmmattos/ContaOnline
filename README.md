@@ -9,9 +9,9 @@
 
 ## Functionalities
 
-- Preview em tempo real
-- Modo tela cheia
-- Multiplataforma
+- Preview real-time
+- full screen mode
+- Multiplataform
 
 
 ## 📚 About
