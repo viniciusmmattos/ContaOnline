@@ -75,6 +75,12 @@ Here are the technologies used in this project
   ## Authors
 
   * **Vinicius Melo Mattos** 
-
+  * **Ademar Mendes de Vargas** 
+  * **Alessandra Andrade** 
+  * **Fernando Antunes da Silva**
+  * **Gabriel de Souza Gonçalves**
+  * **Gleibson Eduardo Xavier Silva**
+  * **Igor Caires Costa**   
+   
   Please follow github and join us!
   Thanks to visiting me and good coding!
