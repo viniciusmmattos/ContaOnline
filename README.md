@@ -23,7 +23,7 @@ Here are the technologies used in this project
 * Github
 
 ## How to use
-### The app's homepage has the options in the menu to login or register. You can choose which way is best for you
+### The app's homepage has the options in the menu to login or register. You can choose which way is best for you.
 
 ### Login
 
