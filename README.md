@@ -55,25 +55,16 @@ Here are the technologies used in this project
 
 ## Features
   - All Users
-    - See Establishments.
-    - Rate the Establishment.
-    - See Category.
-    - See Establishment's Category.
-  - Shopkeeper
-    - Register new Establishments.
-    - Register Establishment's Address.
-    - Edit Establishment's Address.
-    - Delete Establishment's Address.
-    - Edit Establishment.
-    - Delete Establishment.
+    - Familiarity with technology
+    - Fee-free digital checking account
+    - Practicality and low bureaucracy
+    - investments 
   - Admin
     - Register Categories.
     - Edit Categories.
     - Delete Categories.
-    - Register Cities.
-    - Edit Cities.
-    - Delete Cities.
-
+    - User registration.
+    - Include account.
 
 ## Links
   - Repository: https://github.com/Lucasdfg07/iachei_app
