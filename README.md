@@ -47,7 +47,9 @@ Here are the technologies used in this project
 ![image](https://user-images.githubusercontent.com/117367108/201344887-fc3780b5-16f1-4f19-a63b-87146947aa8d.png)
 ![image](https://user-images.githubusercontent.com/117367108/201346388-62c1373d-d531-4a18-81d1-ef6e2600796d.png)
 
-### 
+### The ContaOnline APP can be opened, closed or moved entirely over the internet, without having to go to an agency!!! It is necessary to make an initial registration through the website or the application.
+
+*All operations are done virtually*
 
 ![image](https://user-images.githubusercontent.com/117367108/201347097-8897a8a8-62cb-44e1-b6cb-0556d2885867.png)
 
