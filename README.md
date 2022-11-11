@@ -1,6 +1,6 @@
 ![image](https://user-images.githubusercontent.com/117367108/201108629-431cb5f5-f23c-4577-b39a-b1e0c08d746f.png)
 
-## online account 
+## Online account 
 
 Be part of our account management system, to register on the site it is necessary to register with e-mail and password, as this does not restrict the type of account you want to register.
 
