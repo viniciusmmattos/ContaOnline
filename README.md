@@ -42,9 +42,10 @@ Here are the technologies used in this project.
 ![image](https://user-images.githubusercontent.com/117367108/201341512-5c3bed7a-2a7c-43c5-a9ac-6daefc826fd6.png)
 ![image](https://user-images.githubusercontent.com/117367108/201342951-8c337d0e-5032-4ce7-b170-edd15f6f76ae.png)
 
-### Categoria de contas 
+### Accounts category list
 
 ![image](https://user-images.githubusercontent.com/117367108/201344887-fc3780b5-16f1-4f19-a63b-87146947aa8d.png)
+![image](https://user-images.githubusercontent.com/117367108/201345403-572154f6-bf0b-4d81-bdec-e87f0a155558.png)
 
 
 
