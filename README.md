@@ -82,5 +82,5 @@ Here are the technologies used in this project
   * **Gleibson Eduardo Xavier Silva**
   * **Igor Caires Costa**   
    
-  Please follow github and join us!
-  Thanks to visiting me and good coding!
+
+Thanks for visiting me and good coding!
