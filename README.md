@@ -83,4 +83,4 @@ Here are the technologies used in this project
   * **Igor Caires Costa**   
    
 
-Thanks for visiting me and good coding!
+Thanks for visiting!
